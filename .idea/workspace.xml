@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c09fddb6-5b58-47c4-bc94-28bbae44f8fb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/.classpath" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/.idea/dataSources/52b2bc8e-738b-4e65-8cab-4338f377232f.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/.idea/dataSources/52b2bc8e-738b-4e65-8cab-4338f377232f/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/.idea/libraries/asm_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/.project" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/.settings/.jsdtscope" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/.settings/org.eclipse.wst.common.component" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/.settings/org.eclipse.wst.common.project.facet.core.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/.settings/org.eclipse.wst.jsdt.ui.superType.container" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/.settings/org.eclipse.wst.jsdt.ui.superType.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/MyBatisFirstDemo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/classes/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/classes/cn/com/mybatis/datasource/DataConnection.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/classes/cn/com/mybatis/mapper/CustomerMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/classes/cn/com/mybatis/po/Batch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/classes/cn/com/mybatis/po/BatchCustomer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/classes/cn/com/mybatis/po/BatchDatas.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/classes/cn/com/mybatis/po/BatchDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/classes/cn/com/mybatis/po/BatchItem.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/classes/cn/com/mybatis/po/Customer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/classes/cn/com/mybatis/po/FinacialProduct.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/classes/cn/com/mybatis/po/GamePlayer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/classes/cn/com/mybatis/po/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/classes/cn/com/mybatis/po/ShoppingCart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/classes/cn/com/mybatis/po/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/classes/cn/com/mybatis/po/UserInstance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/classes/cn/com/mybatis/po/UserQueryInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/classes/cn/com/mybatis/test/CartObjectFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/classes/cn/com/mybatis/test/DateTypeHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/classes/cn/com/mybatis/test/MyBatisTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/classes/cn/com/mybatis/test/ObjectFactoryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/classes/cn/com/mybatis/test/QueryPlugin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/classes/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/classes/sqlmap/CustomerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/classes/sqlmap/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/lib/asm-3.3.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/lib/cglib-2.2.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/lib/commons-logging-1.1.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/lib/javassist-3.17.1-GA.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/lib/log4j-1.2.17.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/lib/log4j-api-2.0-rc1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/lib/log4j-core-2.0-rc1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/lib/mybatis-3.4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/lib/mysql-connector-java-5.0.3-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/lib/slf4j-api-1.7.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/lib/slf4j-log4j12-1.7.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/WEB-INF/lib/sqljdbc.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/WebRoot/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/config/SqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/config/log4j.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/config/sqlmap/CustomerMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/config/sqlmap/UserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/src/cn/com/mybatis/datasource/DataConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/src/cn/com/mybatis/mapper/CustomerMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/src/cn/com/mybatis/po/Batch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/src/cn/com/mybatis/po/BatchCustomer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/src/cn/com/mybatis/po/BatchDatas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/src/cn/com/mybatis/po/BatchDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/src/cn/com/mybatis/po/BatchItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/src/cn/com/mybatis/po/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/src/cn/com/mybatis/po/FinacialProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/src/cn/com/mybatis/po/GamePlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/src/cn/com/mybatis/po/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/src/cn/com/mybatis/po/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/src/cn/com/mybatis/po/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/src/cn/com/mybatis/po/UserInstance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/src/cn/com/mybatis/po/UserQueryInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/src/cn/com/mybatis/test/CartObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/src/cn/com/mybatis/test/DateTypeHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/src/cn/com/mybatis/test/MyBatisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/src/cn/com/mybatis/test/ObjectFactoryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MyBatisFirstDemo/src/cn/com/mybatis/test/QueryPlugin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringMVCMybatis.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1fWnx99qM0OWJm4NRegYGozjF4Q" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c09fddb6-5b58-47c4-bc94-28bbae44f8fb" name="Default Changelist" comment="" />
+      <created>1596342959274</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596342959274</updated>
+      <workItem from="1596342963915" duration="71000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
