@@ -15,7 +15,7 @@ public class ObjectFactoryTest {
     public static void main(String[] args) throws IOException {
         SqlSession sqlSession = dataConn.getSqlSession();
         CartObjectFactory e = new CartObjectFactory();
-        //���ò�������:ist�Ͳ���ֵList
+        //设置参数类型:ist和参数值List
         List constructorArgTypes = new ArrayList();
         constructorArgTypes.add(int.class);
         constructorArgTypes.add(String.class);
@@ -24,7 +24,7 @@ public class ObjectFactoryTest {
         constructorArgTypes.add(double.class);
         List constructorArgs = new ArrayList();
         constructorArgs.add(1);//productId
-        constructorArgs.add("��ˢ");//productName
+        constructorArgs.add("牙刷");//productName
         constructorArgs.add(12);//number
         constructorArgs.add(5.0);//price
         constructorArgs.add(0.0);//totalAmount

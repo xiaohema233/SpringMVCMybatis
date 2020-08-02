@@ -13,11 +13,11 @@ public class CartObjectFactory extends DefaultObjectFactory {
     }
 
     @Override
-    //DefaultObjectFactoryµÄcreate(Class type)·½·¨»áµ÷ÓÃ´Ë·½·¨
-    //ËùÒÔ£¬Ö»ĞèÒªÔÚ´Ë·½·¨ÖĞÌí¼ÓÂß¼­¼´¿É¡£ 
+    //DefaultObjectFactoryçš„create(Class type)æ–¹æ³•ä¼šè°ƒç”¨æ­¤æ–¹æ³•
+    //æ‰€ä»¥ï¼Œåªéœ€è¦åœ¨æ­¤æ–¹æ³•ä¸­æ·»åŠ é€»è¾‘å³å¯ã€‚
     public <T> T create(Class<T> type, List<Class<?>> constructorArgTypes, List<Object> constructorArgs) {
         T ret = super.create(type, constructorArgTypes, constructorArgs);
-        //ÅĞ¶Ï¼ÓÔØµÄÀàµÄÀàĞÍ£¬È»ºóÖ´ĞĞinit·½·¨¡£
+        //åˆ¤æ–­åŠ è½½çš„ç±»çš„ç±»å‹ï¼Œç„¶åæ‰§è¡Œinitæ–¹æ³•ã€‚
         if (ShoppingCart.class.isAssignableFrom(type)) {
             ShoppingCart entity = (ShoppingCart) ret;
             entity.init();

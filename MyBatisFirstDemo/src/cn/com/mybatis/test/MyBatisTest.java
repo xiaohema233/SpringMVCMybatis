@@ -72,7 +72,7 @@ public class MyBatisTest {
     @Test
     public void TestDelete() throws Exception {
         SqlSession sqlSession = dataConn.getSqlSession();
-        sqlSession.delete("test.deleteUser", 5);
+        sqlSession.delete("test.deleteUser", 15);
         sqlSession.commit();
         sqlSession.close();
     }
@@ -81,7 +81,7 @@ public class MyBatisTest {
     public void Testupdate() throws Exception {
         SqlSession sqlSession = dataConn.getSqlSession();
         User user = new User();
-        user.setId(4);
+        user.setId(14);
         user.setUsername("孙丽");
         sqlSession.update("test.updateUserName", user);
         sqlSession.commit();
@@ -97,7 +97,7 @@ public class MyBatisTest {
         UserQueryInfo userQueryInfo = new UserQueryInfo();
         UserInstance userInstance = new UserInstance();
         userInstance.setGender("男");
-        userInstance.setUsername("张三");
+        userInstance.setUsername("孙佳佳");
         userQueryInfo.setUserInstance(userInstance);
 
         //调用userMapper的方法
@@ -185,8 +185,8 @@ public class MyBatisTest {
             BatchItem batchItem = null;
             Customer customer = null;
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-            for (int i = 0; i < bcList.size(); i++) {
-                batchItem = bcList.get(i);//取出批次对象
+            for (BatchItem item : bcList) {
+                batchItem = item;//取出批次对象
                 customer = batchItem.getCustomer();//取出该批次的用户信息
                 System.out.println("卡号为" + customer.getAcno() + "的名为"
                         + customer.getUsername() + "的客户:\n于"
@@ -206,7 +206,8 @@ public class MyBatisTest {
         BatchItem batchItem = sqlSession.selectOne("findBatchAndBatchDetail");
         if (batchItem != null) {
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-            Customer customer = batchItem.getCustomer();//取出该批次的用户信息
+            //取出该批次的用户信息
+            Customer customer = batchItem.getCustomer();
             //取出该批次订购的理财产品信息
             List<BatchDetail> batchDetails = batchItem.getBatchDetails();
             System.out.println("卡号为" + customer.getAcno() + "的名为"
@@ -238,16 +239,16 @@ public class MyBatisTest {
         if (customerList != null) {
             SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
             Customer customer = null;
-            for (int i = 0; i < customerList.size(); i++) {
-                customer = customerList.get(i);
+            for (Customer value : customerList) {
+                customer = value;
                 //1.获取用户基本信息
                 System.out.println("卡号为" + customer.getAcno() + "的名为"
                         + customer.getUsername() + "的客户:");
                 //2.获取用户下的所有批次订单信息
                 List<Batch> batchList = customer.getBatchList();
                 Batch batch = null;
-                for (int j = 0; j < batchList.size(); j++) {
-                    batch = batchList.get(j);
+                for (Batch item : batchList) {
+                    batch = item;
                     System.out.println("于"
                             + sdf.format(batch.getCreatetime()) + "采购了批次号为"
                             + batch.getNumber() + "的一批理财产品，详情如下：");
@@ -255,8 +256,8 @@ public class MyBatisTest {
                     List<BatchDetail> batchDetails = batch.getBatchDetials();
                     BatchDetail batchDetail = null;
                     FinacialProduct finacialProduct = null;
-                    for (int k = 0; k < batchDetails.size(); k++) {
-                        batchDetail = batchDetails.get(k);
+                    for (BatchDetail detail : batchDetails) {
+                        batchDetail = detail;
                         System.out.println("id为" + batchDetail.getProduct_id()
                                 + "的理财产品" + batchDetail.getProduct_num() + "份。");
                         //4.获取每个批次明细中的理财产品详细信息
@@ -282,8 +283,8 @@ public class MyBatisTest {
         List<BatchItem> batchItemList = sqlSession.selectList("findBatchUserLazyLoading");
         BatchItem batchItem = null;
         Customer customer = null;
-        for (int i = 0; i < batchItemList.size(); i++) {
-            batchItem = batchItemList.get(i);
+        for (BatchItem item : batchItemList) {
+            batchItem = item;
             System.out.println("订单编号：" + batchItem.getNumber());
             //执行getCustomer时才会去查询用户信息，这里实现了延迟加载  
             customer = batchItem.getCustomer();

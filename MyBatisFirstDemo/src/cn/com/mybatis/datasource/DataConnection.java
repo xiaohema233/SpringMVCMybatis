@@ -9,7 +9,9 @@ import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 public class DataConnection {
-    //mybatis配置文件
+    /**
+     * mybatis配置文件
+     */
     private String resource = "SqlMapConfig.xml";
     private SqlSessionFactory sqlSessionFactory;
     private SqlSession sqlSession;

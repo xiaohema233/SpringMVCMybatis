@@ -3,15 +3,21 @@ package cn.com.mybatis.mapper;
 import cn.com.mybatis.po.Customer;
 
 public interface CustomerMapper {
-    //����Id��ѯ�û���Ϣ
+    /**
+     * 根据Id查询用户信息
+     *
+     * @param id
+     * @return
+     * @throws Exception
+     */
     public Customer findCustomerById(int id) throws Exception;
 
-    //����û���Ϣ  
+    //添加用户信息
     public void insertCustomer(Customer customer) throws Exception;
 
-    //ɾ���û���Ϣ  
+    //删除用户信息
     public void deleteCustomer(int id) throws Exception;
 
-    //�޸��û���Ϣ  
+    //修改用户信息
     public void updateCustomerAcNo(Customer customer) throws Exception;
 }
